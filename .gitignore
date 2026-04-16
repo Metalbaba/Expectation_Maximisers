@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch / Machine Learning models & tensors
+*.pt
+*.pth
+
+# Data sets (You usually don't want to track raw or processed data)
+*.csv
+*.dat
+*.pkl
+
+# Alternatively, if you want to ignore the whole contents of the data folders 
+# but keep the folder structure, uncomment these:
+data/processed/*
+data/raw/*
+data/tokenized/*
+data/true_params/*
+# !data/**/.gitkeep  # (Use this if you add empty .gitkeep files to keep the folders)
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environments (Virtual environments)
+.venv/
+venv/
+env/
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
